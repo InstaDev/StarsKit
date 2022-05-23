@@ -25,7 +25,7 @@ import Cosmos
 
 public class StarsRateViewController: StepViewController {
   
-  @IBOutlet weak var ibStarsRateView: StarsView!
+  weak var ibStarsRateView: StarsView!
   @IBOutlet weak var ibSmileyRateView: SmileyRateView!
   @IBOutlet weak var ibStackView: UIStackView!
   
